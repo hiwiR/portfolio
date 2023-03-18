@@ -11,7 +11,8 @@ import { LandingComponent } from './landing/landing.component';
         CommonModule
     ],
     exports: [
-        NavbarComponent
+        NavbarComponent,
+        LandingComponent
     ]
 })
 export class SharedModule{
